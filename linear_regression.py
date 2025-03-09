@@ -19,6 +19,10 @@ print("number of missing values: \n", df.isnull().sum())
 df = df.dropna(how = 'any')
 print("shape after removing missing values: ", df.shape)
 
+# Preview data
+print("\nPreview of data: ")
+print(df.head())
+
 # Feature matrix and target vector
 X = df.loc[:, ['x']].values
 if X.ndim != 2:
