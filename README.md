@@ -1,2 +1,2 @@
 # shiny-ml-linear-regression
-Linear Regression model using Scikit-learn with the Iris dataset
+Linear Regression model using Scikit-learn with the modified Iris dataset
